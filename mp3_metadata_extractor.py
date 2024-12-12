@@ -101,7 +101,7 @@ def extract_mp3_metadata(folder_path, csv_path, excel_path):
 
 # This block of code runs only when the script is executed directly (not imported as a module)
 if __name__ == "__main__":
-    mp3_folder = 'G:/My Drive/MUSIC/ALBUM_REAL/'  # Specify the path to the folder containing your MP3 files
-    csv_output_path = 'G:/My Drive/MUSIC/ALBUM_REAL/mp3_metadata.csv'  # Specify the path for the output CSV file
-    excel_output_path = 'G:/My Drive/MUSIC/ALBUM_REAL/mp3_metadata.xlsx'  # Specify the path for the output Excel file
+    mp3_folder = 'G:/MUSIC/ALBUM/'  # Specify the path to the folder containing your MP3 files
+    csv_output_path = 'G:/MUSIC/ALBUM/mp3_metadata.csv'  # Specify the path for the output CSV file
+    excel_output_path = 'G:/MUSIC/ALBUM/mp3_metadata.xlsx'  # Specify the path for the output Excel file
     extract_mp3_metadata(mp3_folder, csv_output_path, excel_output_path)  # Call the function to extract metadata and save it to files
