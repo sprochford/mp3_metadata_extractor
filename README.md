@@ -3,7 +3,7 @@
 This Python script extracts ID3 metadata from MP3 files and saves it to:
 
 * A CSV file.
-* An Excel spreadsheet with separate sheets for each album and an "All Songs" sheet.
+* An Excel spreadsheet with separate tabs for each album and an "All Songs" sheet.
 
 ## Features
 
@@ -39,16 +39,6 @@ This Python script extracts ID3 metadata from MP3 files and saves it to:
     python mp3-metadata-extractor.py
     ```
 
-## Contributing
-
-If you'd like to contribute to this project, please follow these steps:
-
-1.  Fork the repository.
-2.  Create a new branch for your changes.
-3.  Make your changes and commit them.
-4.  Push your changes to your fork.
-5.  Submit a pull request.
-
 ## Project Structure
 
 * `mp3-metadata-extractor.py`: The main Python script.
@@ -56,4 +46,4 @@ If you'd like to contribute to this project, please follow these steps:
 * `requirements.txt`: Lists the required Python libraries.
 =======
 # mp3_metadata_extractor
-Python script to extract metadata from a directory of MP3s, sort it by album and track, and organize it into an Excel spreadsheet.
+Python script to extract ID3 metadata from a directory of MP3s, sort it by album and track, and organize it into an Excel spreadsheet.
